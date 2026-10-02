@@ -1,0 +1,35 @@
+.env
+.env.local
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.DS_Store
+*.db
+*.log
+
+# cloned external tools
+sherlock/
+maigret/
+photon/
+sublist3r/
+theHarvester/
+gitleaks/
+
+# recallai ML models and data
+recallai/models/
+recallai/logs/
+recallai/discord_recall.db
+recallai/discord_recall.log
+
+# IDE and tools
+.vscode/
+.idea/
+.claude/
+
+# old/unused
+CLAUDE.md
+bot_backup_incomplete.py
+dima_bot/
+recallai/init.sql
